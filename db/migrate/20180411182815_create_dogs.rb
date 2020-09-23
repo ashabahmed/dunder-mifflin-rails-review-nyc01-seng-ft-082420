@@ -5,7 +5,7 @@ class CreateDogs < ActiveRecord::Migration[5.1]
       t.string :breed
       t.string :age
 
-      t.timestamps
+      t.timestamps 
     end
   end
 end
